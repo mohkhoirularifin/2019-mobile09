@@ -25,11 +25,23 @@ public class MainActivity extends AppCompatActivity {
         //menyambungkan rvSuperHero ke layout
         rvSuperHero = findViewById(R.id.rvSuperHero);
         //Membuat object hero
-        SuperHero hero = new SuperHero("Petruk");
+        SuperHero hero = new SuperHero("Spongebob", R.drawable.spongebob);
         //menambahkan hero ke listSuperHero
         listSuperHero.add(hero);
         //membuat object hero baru
-        hero = new SuperHero("Gareng");
+        hero = new SuperHero("Patrick", R.drawable.patrick);
+        //menambahkan hero baru ke listSuperhero
+        listSuperHero.add(hero);
+        //Membuat object hero
+        hero = new SuperHero("Luffy", R.drawable.luffy);
+        //menambahkan hero ke listSuperHero
+        listSuperHero.add(hero);
+        //membuat object hero baru
+        hero = new SuperHero("Poppeye", R.drawable.poppeye);
+        //menambahkan hero baru ke listSuperhero
+        listSuperHero.add(hero);
+        //membuat object hero baru
+        hero = new SuperHero("Doraemon", R.drawable.doraemon);
         //menambahkan hero baru ke listSuperhero
         listSuperHero.add(hero);
         //Instansiasi Adapter
