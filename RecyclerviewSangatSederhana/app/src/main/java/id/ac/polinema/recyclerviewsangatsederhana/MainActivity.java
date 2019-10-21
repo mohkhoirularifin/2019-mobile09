@@ -45,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
         hero = new SuperHero("Doraemon", R.drawable.doraemon);
         //menambahkan hero baru ke listSuperhero
         listSuperHero.add(hero);
+        //membuat object hero baru
+        hero = new SuperHero("Larva", R.drawable.larva);
+        //menambahkan hero baru ke listSuperhero
+        listSuperHero.add(hero);
         //Instansiasi Adapter
         SuperHeroAdapter superHeroAdapter = new SuperHeroAdapter(listSuperHero);
         //set adapter dan layoutmanager
