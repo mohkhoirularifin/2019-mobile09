@@ -48,6 +48,6 @@ public class MainActivity extends AppCompatActivity {
         SuperHeroAdapter superHeroAdapter = new SuperHeroAdapter(listSuperHero);
         //set adapter dan layoutmanager
         rvSuperHero.setAdapter(superHeroAdapter);
-        rvSuperHero.setLayoutManager(new LinearLayoutManager(this));
+        rvSuperHero.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
     }
 }
